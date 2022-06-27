@@ -1,0 +1,37 @@
+{
+  "name": "rubidium",
+  "version": "4.0.0",
+  "description": "A small unique job scheduler.",
+  "type": "module",
+  "main": "src/rubidium.js",
+  "module": "src/rubidium.js",
+  "exports": {
+    ".": "./src/rubidium.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "repository": "github:qubyte/rubidium",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-qubyte": "^4.1.0",
+    "mocha": "^9.2.0",
+    "sinon": "^12.0.1"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "cron",
+    "schedule",
+    "tasks",
+    "atd"
+  ],
+  "author": "Mark Stanley Everitt",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "vertebrate-event-emitter": "^5.0.0"
+  }
+}
